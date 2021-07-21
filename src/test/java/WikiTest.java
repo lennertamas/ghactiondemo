@@ -22,7 +22,7 @@ public class WikiTest {
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--no-sandbox");
         options.addArguments("--disable-dev-shm-usage");
-        options.addArguments("--headless");
+        //options.addArguments("--headless");
         webdriver = new ChromeDriver(options);
 
         webdriver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
