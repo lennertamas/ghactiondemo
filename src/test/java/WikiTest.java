@@ -1,8 +1,5 @@
 import io.github.bonigarcia.wdm.WebDriverManager;
-import org.junit.jupiter.api.AfterEach;
-import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.*;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -31,6 +28,7 @@ public class WikiTest {
     }
 
     @Test
+    @DisplayName("Test for clicking English button on menu page")
     public void TestEnglishButton()
     {
         webdriver.get("https://www.wikipedia.org/");
