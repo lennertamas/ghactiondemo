@@ -1,0 +1,21 @@
+[ {
+  "uid" : "f411ec0f8b1e7a04",
+  "name" : "TestFalse()",
+  "time" : {
+    "start" : 1627565648552,
+    "stop" : 1627565648958,
+    "duration" : 406
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "5869163784aef32",
+  "name" : "Test for clicking English button on menu page",
+  "time" : {
+    "start" : 1627565646624,
+    "stop" : 1627565648467,
+    "duration" : 1843
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
