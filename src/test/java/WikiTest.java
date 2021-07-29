@@ -40,6 +40,12 @@ public class WikiTest {
 
     }
 
+    @Test
+    public void TestFalse()
+    {
+        Assertions.assertTrue(false);
+    }
+
     @AfterEach
     public void Close()
     {
