@@ -1,0 +1,10 @@
+[ {
+  "name" : "GitHub Actions",
+  "type" : "github",
+  "url" : "https://lennertamas.github.io/ghactiondemo",
+  "buildOrder" : 15,
+  "buildName" : "GitHub Actions Run #1078449747",
+  "buildUrl" : "https://github.com/lennertamas/ghactiondemo/actions/runs/1078449747",
+  "reportName" : "Allure Report with history",
+  "reportUrl" : "https://lennertamas.github.io/ghactiondemo/15/"
+} ]
